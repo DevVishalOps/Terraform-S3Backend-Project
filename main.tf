@@ -57,3 +57,16 @@ resource "aws_s3_object" "AT" {
     source = "AT.jpg"
     acl = "public-read"
 }
+
+resource "aws_s3_bucket_website_configuration" "website" {
+  bucket = aws_s3_bucket.mybucket.id
+
+  index_document {
+    suffix = "index.html"
+  }
+
+  error_document {
+    key = "error.html"
+  }
+
+}
