@@ -1,4 +1,4 @@
-# terraform-S3Backend-DyamoDB-Project
+# terraform-S3Backend-Project
 
 ## I have hosted a static website using terraform and stored the terraform.tfsate file in S3 Backend 
 
