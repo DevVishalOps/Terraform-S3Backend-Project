@@ -33,7 +33,7 @@ terraform --version
 
 # Execute Steps
 
-### for initaizing S3 Backend
+### for initializing S3 Backend
 ```bash
 terraform init
 ```
